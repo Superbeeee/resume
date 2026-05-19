@@ -3,7 +3,7 @@
 LaTeX résumé built on the [Awesome-CV](https://github.com/posquit0/Awesome-CV) template.
 Content lives in `resume/*.tex` (one file per section); `resume.tex` is the assembly point.
 
-📄 **Download the latest PDF:** [resume.pdf](https://github.com/YOUR_GITHUB_USERNAME/resume/raw/main/resume.pdf)
+📄 **Download the latest PDF:** [resume.pdf](https://github.com/superbeeee/resume/raw/main/resume.pdf)
 
 ## Architecture
 
@@ -12,7 +12,6 @@ resume.tex              ← Main assembly file (personal info + section imports)
 resume/
 ├── summary.tex         ← One section per file
 ├── experience.tex
-├── projects.tex
 ├── writing.tex
 ├── skills.tex
 └── education.tex
