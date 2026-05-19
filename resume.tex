@@ -1,0 +1,58 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV — Eason Tang
+% Template by Claud D. Park, forked structure inspired by tigercosmos/resume
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\usepackage{hyperref}
+
+% CJK support for Chinese characters (HaoYuanShu 好願書)
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Serif CJK TC}
+\setCJKsansfont{Noto Sans CJK TC}
+
+\geometry{left=1.2cm, top=.6cm, right=1.2cm, bottom=.8cm, footskip=.4cm}
+
+\fontdir[fonts/]
+
+% Color options: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink,
+%                awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\name{Eason}{Tang}
+\position{Technical Product Manager{\enskip\cdotp\enskip}Engineer-turned-PM, FinTech \& IoT SaaS}
+\address{Taipei, Taiwan}
+
+\email{tang0103@gmail.com}
+\homepage{superbeeee.com}
+\github{superbeeee}
+\linkedin{tang0103}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\makecvheader[C]
+
+\makecvfooter
+  {\today}
+  {Eason Tang's Résumé}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+%	RESUME CONTENT
+%-------------------------------------------------------------------------------
+\input{resume/summary.tex}
+\input{resume/experience.tex}
+\input{resume/writing.tex}
+\input{resume/skills.tex}
+\input{resume/education.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
